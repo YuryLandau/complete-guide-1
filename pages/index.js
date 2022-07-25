@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+import Button from './src/components/Button';
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -50,6 +52,8 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <Button />
       </main>
 
       <footer className={styles.footer}>
